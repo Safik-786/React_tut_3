@@ -1,0 +1,23 @@
+/* div{
+  text-align: center;
+} */
+.active{
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, crimson,  crimson);
+  font-weight: 30px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /* color: crimson; */
+  background-image: linear-gradient(pink, white);
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
