@@ -26,6 +26,7 @@ function SubNav() {
       <NavLink style={obj} to="grid">GridAndCont</NavLink>
       <NavLink style={obj} to="card">Card</NavLink>
       <NavLink style={obj} to="navbar">Navbar</NavLink>
+      <NavLink style={obj} to="carousel">Carousel</NavLink>
     </div>
     <Outlet/>
     

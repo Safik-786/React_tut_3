@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Nav, Navbar, NavbarBrand, Row } from 'react-bootstrap'
+import { Col, Container, Nav, Navbar, NavbarBrand, Row, NavDropdown ,Dropdown} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { NavLink } from 'react-router-dom'
 
@@ -25,6 +25,9 @@ function NavBar0() {
                                         <Nav.Link as={NavLink} to="/formikcomp"> FormicComp </Nav.Link>
                                         <Nav.Link as={NavLink} to="/bootstrap"> BootStrap </Nav.Link>
                                         <Nav.Link as={NavLink} to="/alert"> Alert </Nav.Link>
+
+                                        <Nav.Link as={NavLink} to="/hook"> Hook </Nav.Link>
+                                        
                                     </Nav>
                                 </Navbar.Collapse>
 

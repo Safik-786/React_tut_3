@@ -30,6 +30,7 @@ function Navbar() {
         <NavLink style={obj} to="/formikcomp"> FormicComp </NavLink>
         <NavLink style={obj} to="/bootstrap"> BootStrap </NavLink>
         <NavLink style={obj} to="/alert"> Alert </NavLink>
+        <NavLink style={obj} to="/hook"> Hook </NavLink>
 
       </nav>
     </>
