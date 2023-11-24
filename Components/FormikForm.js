@@ -22,7 +22,8 @@ function FormikForm() {
     
 
    // destructure the formik object
-    const {handleChange,handleSubmit,handleBlur,touched, values , errors}= useFormik({
+   // formik object ke ander ye sare keys hain.
+    const {handleChange, handleSubmit, handleBlur, touched, values, errors}= useFormik({
         initialValues: formInitialvalues,
         validationSchema:FormSchema,
         onSubmit:(data,action)=>{

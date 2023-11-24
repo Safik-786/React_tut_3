@@ -98,7 +98,10 @@ function FormikComponent() {
 
             <h3>Your Content</h3>
             <div style={{border:"1px solid blue"}}>
+                
             {/* {JSON.stringify(formData)} <br /> */}
+            {/* JSON.parse */}
+
             {formData.name} <br />
             {formData.age} <br />
             {formData.comment} <br />
