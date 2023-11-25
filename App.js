@@ -18,6 +18,7 @@ import UseState from './Hook/UseState';
 import UseReducer from './Hook/UseReducer';
 import UseRef from './Hook/UseRef';
 import UseRef2 from './Hook/UseRef2';
+import Fetch from './Components/Fetch';
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
           <Route path='carousel' element={<BootStrapCarousel />} />
         </Route>
 
+          <Route path='/fetch' element={<Fetch />} />
 
       </Routes>
     </div>
