@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 function Fetch() {
     const [posts,setPosts]= useState([])
-    const url = `https://jsonplaceholder.typicode.com/todos`
+    const url = `https://jsonplaceholder.typicode.com/posts`
     // fetch(url)
     // .then((resp)=>{
     //     return resp.json();           // it will also return a promise
