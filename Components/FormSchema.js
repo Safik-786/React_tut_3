@@ -12,3 +12,6 @@ export const FormSchema = Yup.object({
     .oneOf([Yup.ref('pass'),null], "Both password must matched")
     // .(dot) is known as function chaining
 })
+
+
+// Rregular Expression or Regex
