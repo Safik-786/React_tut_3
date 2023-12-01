@@ -19,6 +19,7 @@ import UseReducer from './Hook/UseReducer';
 import UseRef from './Hook/UseRef';
 import UseRef2 from './Hook/UseRef2';
 import Fetch from './Components/Fetch';
+import UseContext from './Hook/UseContext';
 
 function App() {
   return (
@@ -51,7 +52,7 @@ function App() {
             </>
           } />
           <Route path='usereducer' element={<UseReducer />} />
-          <Route path='usecontext' element={<UseState />} />
+          <Route path='usecontext' element={<UseContext/>} />
           <Route path='useeffect' element={<UseState />} />
         </Route>
         <Route path='/bootstrap' element={<SubNav />}>
